@@ -182,7 +182,7 @@ html , body{
 #motive-con p #three{
     height: 2vw;
     width: 4vw;
-    background-image: url(/assests/grass.jpg);
+    background-image: url(./assests/grass.jpg);
     background-position: 0% 53%;
     background-size: cover;
 }
