@@ -168,14 +168,14 @@ html , body{
 #motive-con p #one{
     height: 2vw;
     width: 4vw;
-    background-image: url(/assests/bluegirl.jpg);
+    background-image: url(./assests/bluegirl.jpg);
     background-position: 0% 53%;
     background-size: cover;
 }
 #motive-con p #two{
     height: 2vw;
     width: 3vw;
-    background-image: url(/assests/shaljam.jpg);
+    background-image: url(./assests/shaljam.jpg);
     background-position: 0% 53%;
     background-size: cover;
 }
