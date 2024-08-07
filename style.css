@@ -1,0 +1,290 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf);
+}
+@font-face {
+    font-family: bold;
+    src: url(./Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    padding: 2.5vw 5vw;
+    justify-content: space-between;
+    position: relative;
+}
+#nleft{
+    display: flex;
+    gap: 1vw;
+}
+#nright h6{
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+#nav a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5vw;
+    font-size: 1vw;
+    font-weight: 400;
+}
+#nmid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#nmid h5{
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#home-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6vw;
+    margin-top: 15vw;
+}
+
+#sustain{
+    width: 10vw;
+}
+#sustain h3, h4{
+    font-family: bold;
+}
+#sustain p{
+    font-size: 0.8vw;
+    margin: 0.71vw 0;
+}
+#susimg{
+    height: 15vw;
+    width: 10vw;
+}
+#susimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#ephemeral{
+    position: relative;
+    min-height: 55vh;
+    width: 35vw;
+}
+#ep-con{
+    position: absolute;
+    top: -17%;
+    left: -20%;
+}
+#ephemeral h1{
+    font-size: 6vw;
+    line-height: 5.5vw;
+    font-weight: 500;
+}
+#ephemeral img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#visit{
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+}
+#visit h4{
+    color: #b4b3b3;
+    font-weight: 500;
+    font-size: 0.8vw;
+}
+#circleV{
+    height: 3vw;
+    width: 3vw;
+    border: 1px solid #b4b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#circleV i{
+    color: #b4b3b3;
+}
+
+#motive{
+    padding: 0 9vw;
+    margin-top: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#motive h3{
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+#motive #motive-short{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4vw;
+}
+#motive-short i{
+    font-size: 2vw;
+    font-weight: 400;
+    opacity: 0.5;
+}
+#motive-con{
+    width: 60%;
+    text-align: right;
+}
+#motive-con p{
+    font-size: 1.5vw;
+    position: relative;
+    letter-spacing: 0.01vw;
+    font-weight: 500;
+}
+#motive-con p span{
+    display: inline-block;
+    margin-bottom: -0.3vw;
+    margin-right: 0.4vw;
+    border-radius: 1.5vw;
+}
+#motive-con p #one{
+    height: 2vw;
+    width: 4vw;
+    background-image: url(/assests/bluegirl.jpg);
+    background-position: 0% 53%;
+    background-size: cover;
+}
+#motive-con p #two{
+    height: 2vw;
+    width: 3vw;
+    background-image: url(/assests/shaljam.jpg);
+    background-position: 0% 53%;
+    background-size: cover;
+}
+#motive-con p #three{
+    height: 2vw;
+    width: 4vw;
+    background-image: url(/assests/grass.jpg);
+    background-position: 0% 53%;
+    background-size: cover;
+}
+
+#two-pic{
+    padding: 0 17vw;
+    margin-top: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#left{
+    height: 40vh;
+    width: 12vw;
+}
+#left #left-img{
+   height: 100%;
+   width: 100%;
+}
+#left #left-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: 0% 60%;
+}
+
+#left-con h1{
+    font-size: 1.9vw;
+    margin-bottom: 1vw;
+    margin-top: 0.5vw;
+    font-family: bold;
+}
+#left-con h5{
+    font-size: 0.8vw;
+    font-weight: 600;
+}
+
+#right{
+    height: 60vh;
+    width: 20vw;
+    
+}
+ #right #right-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 4vw;
+ }
+ 
+ #right-con h1{
+    font-size: 1.9vw;
+    margin-bottom: 1vw;
+    margin-top: 0.5vw;
+    font-family: bold;
+ }
+ #right-con h5{
+    font-size: 0.8vw;
+    font-weight: 600;
+ }
+
+ #video-con{
+    margin-top: 10vw;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+ }
+ #video-con video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+ }
+#video-con #btn{
+    font-size: 3vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1vw 2vw;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#video-con #btn h1{
+    font-size: 2vw;
+    font-family: bold;
+}
+ #video-con button{
+    cursor: pointer;
+    padding: 1vw 2vw;
+    margin-top: 1vw;
+    border: 1px solid #b4b3b3;
+    background-color: #fff;
+    color: #000;
+    font-size: 0.71vw;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
